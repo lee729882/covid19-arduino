@@ -11,7 +11,7 @@
 <br/>
 
 ## 📸 프로젝트 시연
-<img src="https://github.com/lee729882/covid19-arduino/images/lcd_output.png" width="600" alt="프로젝트 시연 이미지">
+<img width="288" height="289" alt="lcd_output" src="https://github.com/user-attachments/assets/27275099-5c92-4d52-be65-6956133a6e3d" />
 
 <br/>
 
