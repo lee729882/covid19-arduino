@@ -27,7 +27,7 @@ graph TD;
     C -->|Parse & Calc| E[Calculate New Cases];
     E -->|Display| F[I2C LCD];
     F -->|Delay 1 Hour| A;
-
+```
 <br/>
 
 ## 📌 기획 의도 및 핵심 기능
@@ -71,7 +71,7 @@ String parse_xml(String tag, String parse_str){
   // 값 추출
   return parse_str.substring(st_index + st_tag.length(), ed_index);
 }
-
+```
 <br/>
 
 ## ⚙️ 하드웨어 구성 (Bill of Materials)
@@ -94,3 +94,4 @@ String parse_xml(String tag, String parse_str){
 const char* ssid = "YOUR_WIFI_SSID";       // 와이파이 ID
 const char* passwd = "YOUR_WIFI_PASSWORD"; // 와이파이 비밀번호
 String key = "YOUR_API_KEY";               // 공공데이터포털 Decoding Key
+```
